@@ -247,8 +247,18 @@ main {
             background-color: white;
             padding: 3%;
 
-            img {
-                padding-right: 2.1%;
+            .images {
+
+                img {
+                    padding-right: 2.1%;
+                }
+            }
+
+            .rew {
+
+                .col {
+                    padding-bottom: 3%;
+                }
             }
         }
 
@@ -256,7 +266,50 @@ main {
             background-color: rgb(73, 191, 21);
             width: 3%;
             height: 10%;
-            margin-top: 20%;
+            margin-top: 18%;
+        }
+    }
+
+    .col-8 {
+        text-align: center;
+        background-color: white;
+        margin: 5% 20%;
+
+        .title {
+            font-family: 'ProximaNova';
+            padding: 2% 0%;
+            margin-left: 15%;
+            }
+
+        form {
+            margin: 2% 5%;
+
+            .col-5 {
+                display: @display
+            }
+
+            .button {
+                background-color: @btn-color;
+                margin-top: 3%;
+                border: none;
+                border-radius: 5px;
+                color: white;
+                height: 50px;
+                padding: 0% 5%;
+            }
+        }
+    }
+
+    .how-it-works {
+        margin-top: 5%; 
+
+        .title {
+            text-align: center;
+            font-family: 'ProximaNova';
+        }
+
+        .col {
+            text-align: center;
         }
     }
 }
