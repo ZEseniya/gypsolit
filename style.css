@@ -1,0 +1,194 @@
+@font-face {
+  font-family: 'ProximaNova';
+  src: url(fonts/ProximaNova-Semibold.woff);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  background-image: url(images/header-background.png);
+  background-size: cover;
+  width: 100%;
+}
+header .row {
+  margin-bottom: 5%;
+}
+header .row .logo {
+  margin-top: 0.8%;
+  margin-left: 16.5%;
+  display: inline-block;
+}
+header .row .logo img {
+  display: inline-block;
+  width: 16%;
+  vertical-align: top;
+}
+header .row .logo .col-6 {
+  display: inline-block;
+}
+header .row .logo .col-6 .logo-txt {
+  float: left;
+  width: 100%;
+  font-size: 18px;
+}
+header .row .logo .col-6 .logo-txt:last-child {
+  font-size: 11px;
+}
+header .row .consultation {
+  margin-top: 1%;
+  margin-left: 7%;
+}
+header .row .consultation .number {
+  display: inline-block;
+  margin-top: 0%;
+  margin-left: 10%;
+}
+header .row .consultation .get-consultation {
+  margin-top: 1%;
+  display: inline-block;
+  background-color: #ffb504;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+header .row .col-7 {
+  margin-left: 1.5%;
+}
+header .row .col-7 .col-6 {
+  margin-left: 25%;
+  margin-bottom: 3%;
+}
+header .row .col-7 .col-4 {
+  margin-left: 25%;
+  margin-bottom: 5%;
+}
+header .row .col-7 .cost {
+  background-color: #4aa222;
+  margin-left: 27%;
+  margin-bottom: 2%;
+  color: white;
+}
+header .row .form form {
+  background-color: white;
+  width: 80%;
+}
+header .row .form form p {
+  text-align: center;
+  padding: 5%;
+}
+header .row .form form input {
+  margin-left: 10%;
+  margin-top: 5%;
+  text-align: center;
+  width: 80%;
+  height: 10%;
+}
+header .row .form form .button {
+  background-color: #ffb504;
+  border-radius: 5px;
+  border: none;
+  height: 50px;
+  color: white;
+}
+main .about {
+  margin-bottom: 5%;
+}
+main .about .row .title {
+  text-align: center;
+  font-family: "ProximaNova";
+  font-weight: 500;
+  margin-bottom: 5%;
+}
+main .about .row {
+  margin: 0% 7%;
+}
+main .about .row .article {
+  text-align: center;
+}
+main .about .row .article .icon {
+  margin-bottom: 10%;
+}
+main .about .row .article .txt-title {
+  margin-bottom: 10%;
+  font-size: 20px;
+  font-weight: 500;
+}
+main .about .row .article .txt {
+  text-align: justify;
+}
+main .price {
+  background-color: #286b0a;
+  padding: 5%;
+}
+main .price .title {
+  color: white;
+  text-align: center;
+  font-family: "ProximaNova";
+}
+main .price .txt {
+  color: white;
+  text-align: center;
+  margin-bottom: 2%;
+}
+main .price .section {
+  background-color: white;
+  margin-right: 0%;
+  margin: 0% 4%;
+  padding: 1%;
+  display: inline-block;
+  text-align: center;
+  font-family: "ProximaNova";
+}
+main .price .section .section-title {
+  margin-bottom: 5%;
+}
+main .price .section .section-img {
+  margin-bottom: 5%;
+}
+main .price .section .section-img img {
+  width: 100%;
+}
+main .price .section .section-price {
+  margin: 5% 0%;
+}
+main .price .section .section-reasons .reason {
+  margin: 3% 0%;
+}
+main .price .section .section-reasons .reason img {
+  width: 8%;
+  margin-right: 5%;
+}
+main .price .section .section-reasons .first-section-last-reson {
+  margin-bottom: 57%;
+}
+main .price .section .section-reasons .second-section-last-reson {
+  margin-bottom: 28%;
+}
+main .price .section .section-button {
+  background-color: #ffb504;
+  margin-left: 15%;
+  color: white;
+  border-radius: 5px;
+  padding: 5% 0%;
+}
+main .reviews {
+  padding: 5% 10%;
+  background-image: url(images/bk.png);
+}
+main .reviews .title {
+  text-align: center;
+}
+main .reviews .carousel-inner {
+  background-color: white;
+  padding: 3%;
+}
+main .reviews .carousel-inner img {
+  padding-right: 2.1%;
+}
+main .reviews a {
+  background-color: #49bf15;
+  width: 3%;
+  height: 10%;
+  margin-top: 20%;
+}

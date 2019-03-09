@@ -1,0 +1,263 @@
+@bk-color: rgb(40, 107, 10);
+@bk-img: url(images/bk.png);
+@btn-color: rgb(255, 181, 4);
+@display: inline-block;
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url(fonts/ProximaNova-Semibold.woff)
+}
+
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+header {
+    background-image: url(images/header-background.png);
+    background-size: cover;
+    width: 100%;
+
+    .row {
+        margin-bottom: 5%;
+
+        .logo {
+            margin-top: 0.8%;
+            margin-left: 16.5%;
+            display: @display;
+
+            img {
+                display: @display;
+                width: 16%;
+                vertical-align: top; 
+            }
+
+            .col-6 {
+                display: @display;  
+
+                .logo-txt {
+                    float: left;
+                    width:  100%;
+                    font-size: 18px;
+                }
+
+                .logo-txt:last-child {
+                    font-size: 11px;
+                }
+            }
+        }
+
+        .consultation {
+            margin-top: 1%;
+            margin-left: 7%; 
+
+            .number { 
+                display: @display;
+                margin-top: 0%;
+                margin-left: 10%
+            }
+
+            .get-consultation {
+                margin-top: 1%;
+                display: @display;
+                background-color: @btn-color;
+                border-radius: 5px;
+                color: white;
+                text-align: center;
+            }
+        }
+    }
+
+    .row {
+
+        .col-7 {
+            margin-left: 1.5%;
+            
+
+            .col-6 {
+                margin-left: 25%;
+                margin-bottom: 3%;
+            }
+            
+            .col-4 {
+                margin-left: 25%;
+                margin-bottom: 5%;
+            }
+
+            .cost {
+                background-color: #4aa222;
+                margin-left: 27%;
+                margin-bottom: 2%;
+                color: white;
+            }
+        }
+
+        .form {
+
+            form {              
+                background-color: white;
+                width: 80%;
+
+                p {
+                    text-align: center;
+                    padding: 5%;
+                }
+
+                input {
+                    margin-left: 10%;
+                    margin-top: 5%;
+                    text-align: center;
+                    width: 80%;
+                    height: 10%;
+                }
+
+
+                .button {
+                    background-color: @btn-color;
+                    border-radius: 5px;
+                    border: none;
+                    height: 50px;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+main {
+    .about {
+        margin-bottom: 5%;
+
+        .row {
+
+            .title {
+                text-align: center;
+                font-family: "ProximaNova";
+                font-weight: 500;
+                margin-bottom: 5%;
+            }
+        }
+
+        .row {
+            margin: 0% 7%;
+
+            .article {
+                text-align: center; 
+                
+                .icon {
+                    margin-bottom: 10%;
+                    
+                }
+
+                .txt-title {
+                    margin-bottom: 10%;
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+
+                .txt {
+                    text-align: justify;
+                }
+            }
+        }
+    }
+
+    .price {
+        background-color: @bk-color;
+        padding: 5%;
+
+        .title {
+            color: white;
+            text-align: center;
+            font-family: "ProximaNova";
+        }
+
+        .txt {
+            color: white;
+            text-align: center;
+            margin-bottom: 2%;
+        }
+
+        .section {
+            background-color: white;
+            margin-right: 0%; 
+            margin: 0% 4%;
+            padding: 1%;
+            display: @display;
+            text-align: center;
+            font-family: "ProximaNova";
+
+            .section-title {
+
+                margin-bottom: 5%;
+            }
+
+            .section-img {
+                margin-bottom: 5%;
+
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .section-price {
+                margin: 5% 0%;
+            }
+
+            .section-reasons { 
+                
+                .reason {
+                    margin: 3% 0%;
+
+                    img {
+                        width: 8%;
+                        margin-right: 5%;
+                    }                    
+                }
+                
+                .first-section-last-reson {
+                        margin-bottom: 57%;
+                }
+
+                .second-section-last-reson {
+                        margin-bottom: 28%;                    
+                }
+            }
+
+            .section-button {
+                background-color: @btn-color;
+                margin-left: 15%;
+                color: white;
+                border-radius: 5px;
+                padding: 5% 0%;
+            }
+        }
+    }
+
+    .reviews {
+        padding: 5% 10%;
+        background-image: @bk-img;
+
+        .title {
+            text-align: center;
+        }
+
+        .carousel-inner {
+            background-color: white;
+            padding: 3%;
+
+            img {
+                padding-right: 2.1%;
+            }
+        }
+
+        a {
+            background-color: rgb(73, 191, 21);
+            width: 3%;
+            height: 10%;
+            margin-top: 20%;
+        }
+    }
+}
+
