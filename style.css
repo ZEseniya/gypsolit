@@ -105,9 +105,6 @@ header .row .form form input {
   height: 3rem;
   border: 1px solid #ddd;
 }
-header .row .form form .name {
-  margin-right: ;
-}
 header .row .form form .button {
   background-color: #ffb504;
   border-radius: 5px;
