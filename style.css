@@ -7,10 +7,6 @@
   padding: 0px;
   font-family: 'ProximaNova';
 }
-html {
-  padding: 0%;
-  margin: 0%;
-}
 header {
   background-image: url(images/header-background.png);
   background-size: cover;
@@ -297,7 +293,7 @@ main .how-it-works .col {
   margin-bottom: 3%;
 }
 main .how-it-works .row {
-  padding: 3% 0% 3% 10%;
+  padding: 3% 0% 1.5% 10%;
 }
 main .how-it-works .row .article {
   margin-left: 2%;
@@ -309,18 +305,20 @@ main .how-it-works .row .article .title {
 main .how-it-works .img {
   position: absolute;
   right: 0%;
-  top: 460%;
+  top: 410%;
   width: 50%;
   height: 110%;
 }
 main .adv {
-  margin-top: 5%;
+  padding-top: 7%;
   padding: 0% 10%;
+  background-color: #f5f5f5;
 }
 main .adv .title {
   font-size: 3rem;
   color: #358015;
   text-align: center;
+  padding-top: 3%;
 }
 main .adv .txt {
   text-align: center;
@@ -334,4 +332,65 @@ main .adv .row .icon {
 }
 main .adv .row .txt {
   text-align: justify;
+  width: 80%;
+}
+main .pr {
+  padding: 0% 10%;
+}
+main .pr .title {
+  text-align: center;
+  margin: 5% 0%;
+}
+main .pr .prob {
+  border: 2px solid #f5f5f5;
+  width: 40%;
+  display: inline-block;
+  margin-right: 10%;
+  padding-left: 5%;
+}
+main .pr .prob .title {
+  color: #313131;
+  padding-top: 5%;
+  text-align: left;
+}
+main .pr .prob .row {
+  margin: 5% 0%;
+  padding-top: 2% ;
+}
+main .pr .prob .row .icon {
+  margin-right: 5%;
+}
+main .pr .prob .row .txt {
+  width: 80%;
+  display: inline-block;
+}
+main .pr .sol {
+  border: 2px solid #358015;
+  width: 40%;
+  display: inline-block;
+  padding-left: 5%;
+}
+main .pr .sol .title {
+  text-align: left;
+}
+main .pr .sol .row {
+  margin: 3% 0%;
+  padding-bottom: 1%;
+}
+main .pr .sol .row .icon {
+  width: 7%;
+  display: inline-block;
+}
+main .pr .sol .row .txt {
+  width: 90%;
+  display: inline-block;
+}
+main .pr .sol .row img {
+  width: 80%;
+}
+main .pr .img {
+  width: 20%;
+  position: absolute;
+  left: 33%;
+  top: 590%;
 }
