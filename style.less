@@ -10,7 +10,13 @@
 
 * {
     margin: 0px;
-    padding: 0px
+    padding: 0px;
+    font-family: 'ProximaNova';
+}
+
+html {
+    padding: 0%;
+    margin: 0%;
 }
 
 header {
@@ -19,7 +25,7 @@ header {
     width: 100%;
 
     .row {
-        margin-bottom: 5%;
+        margin-bottom: 4%;
 
         .logo {
             margin-top: 0.8%;
@@ -96,19 +102,41 @@ header {
 
             form {              
                 background-color: white;
-                width: 80%;
 
                 p {
                     text-align: center;
                     padding: 5%;
                 }
 
+                .input-name-txt {
+                    position: absolute;
+                    left: 37%;
+                    bottom: 66%;
+                    background-color: #fff;
+                    padding: 0% 3%;
+                    color:  #565656;
+                }
+
+                .input-tel-txt {
+                    position: absolute;
+                    left: 30%;
+                    bottom: 48%;
+                    background-color: #fff;
+                    padding: 0% 3%;
+                    color:  #565656;
+                }
+
                 input {
                     margin-left: 10%;
-                    margin-top: 5%;
-                    text-align: center;
+                    margin-bottom: 5%;
                     width: 80%;
-                    height: 10%;
+                    border-radius: 5px;
+                    height: 3rem;
+                    border: 1px solid #ddd;
+                }
+
+                .name {
+                    margin-right: ;
                 }
 
 
@@ -169,7 +197,6 @@ main {
         .title {
             color: white;
             text-align: center;
-            font-family: "ProximaNova";
         }
 
         .txt {
@@ -217,20 +244,24 @@ main {
                 }
                 
                 .first-section-last-reson {
-                        margin-bottom: 57%;
+                    margin-bottom: 62%;
                 }
 
                 .second-section-last-reson {
-                        margin-bottom: 28%;                    
+                    margin-bottom: 27%;                    
+                }
+
+                .third-section-last-reson {
+                    margin-bottom: 15%
                 }
             }
 
             .section-button {
                 background-color: @btn-color;
-                margin-left: 15%;
                 color: white;
                 border-radius: 5px;
                 padding: 5% 0%;
+                border: none;
             }
         }
     }
@@ -244,13 +275,22 @@ main {
         }
 
         .carousel-inner {
+            padding: 3%;
+        }
+
+        .carousel-item {
             background-color: white;
             padding: 3%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
             .images {
 
+                .main-img {
+                    width: 100%
+                }
+
                 img {
-                    padding-right: 2.1%;
+                    padding-right: 0.1%;
                 }
             }
 
@@ -259,6 +299,20 @@ main {
                 .col {
                     padding-bottom: 3%;
                 }
+
+                .comment {
+                    img {
+                        width: 90%;
+                        margin: 0% 4%;
+                    }
+
+                    .col-11 {
+                        text-align: justify;
+                        position: absolute;
+                        bottom: 3%;
+                        left: 3%;
+                    }
+                }
             }
         }
 
@@ -266,37 +320,71 @@ main {
             background-color: rgb(73, 191, 21);
             width: 3%;
             height: 10%;
-            margin-top: 18%;
+            margin-top: 20%;
         }
-    }
 
-    .col-8 {
-        text-align: center;
-        background-color: white;
-        margin: 5% 20%;
+        .col-8 {
+            text-align: center;
+            background-color: white;
+            margin: 5% 20%;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 
-        .title {
-            font-family: 'ProximaNova';
-            padding: 2% 0%;
-            margin-left: 15%;
+
+            .title {
+                padding: 2% 0%;
+                text-align: center;
+            }        
+            
+            form {
+                margin: 2% 5%;
+
+                input {
+                    width: 40%;
+                    border-radius: 5px;
+                    height: 3rem;
+                    border: 1px solid #ddd;
+                    display: @display;
+                }
+
+                .input-name-txt {
+                    position: absolute;
+                    left: 23%;
+                    bottom: 75%;
+                    background-color: #fff;
+                    padding: 0% 2%;
+                    color:  #565656;
+                }
+
+                .input-tel-txt {
+                    position: absolute;
+                    left: 57%;
+                    bottom: 75%;
+                    background-color: #fff;
+                    padding: 0% 2%;
+                    color:  #565656;
+                }
+
+                .col-5 {
+                    
+                }
+
+                .button {
+                    background-color: @btn-color;
+                    margin-top: 3%;
+                    border: none;
+                    border-radius: 5px;
+                    color: white;
+                    height: 50px;
+                    padding: 0% 5%;
+                }
             }
+        }
 
-        form {
-            margin: 2% 5%;
-
-            .col-5 {
-                display: @display
-            }
-
-            .button {
-                background-color: @btn-color;
-                margin-top: 3%;
-                border: none;
-                border-radius: 5px;
-                color: white;
-                height: 50px;
-                padding: 0% 5%;
-            }
+        .img {
+            width: 60%;
+            position: absolute;
+            top: -23%;
+            right: 85%;
         }
     }
 
@@ -305,12 +393,60 @@ main {
 
         .title {
             text-align: center;
-            font-family: 'ProximaNova';
         }
 
         .col {
             text-align: center;
+            margin-bottom: 3%
+        }
+
+        .row {
+            padding: 3% 0% 3% 10%;
+
+            .article {
+                margin-left: 2%;
+
+                .title {
+                    text-align: left;
+                    margin: 3% 0%;
+                }
+            }
+        }
+
+        .img {
+            position: absolute;
+            right: 0%;
+            top: 460%;
+            width: 50%;
+            height: 110%;
+        }
+    }
+
+    .adv {
+        margin-top: 5%;
+        padding: 0% 10%;
+
+        .title {
+            font-size: 3rem;
+            color: #358015;
+            text-align: center;
+        }
+
+        .txt {
+            text-align: center;
+            margin: 2% 0%; 
+        }
+
+        .row {
+            margin: 4% 0%;
+
+            .icon {
+                margin: 5% 0%;
+            }
+
+            .txt {
+                text-align: justify;
+            }
         }
     }
 }
-
