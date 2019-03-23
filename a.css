@@ -1,0 +1,88 @@
+@media screen and (min-width: 150px) {
+    .about .article {
+        width: 100%;
+        padding: 2%;
+        margin-bottom: 15%;
+    }
+
+    .section {
+        width: 100%;
+        margin-bottom: 15%;
+    }
+
+    .how-it-works .article {
+        margin-bottom: 15%;
+        width: 100%;
+    }
+    
+    .materials .article {
+        width: 100%;
+        padding: 2%;
+        margin-bottom: 15%;
+        flex-basis: auto;
+    }
+
+    .service .article {
+        width: 100%;
+        margin-bottom: 15%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .about .article {
+        width: 50%;
+        padding: 2%;
+    }
+
+    .section {
+        width: 100%;
+        margin: 0% 4%;
+    }
+
+    .how-it-works .article {
+        float: left;
+        width: 50%;
+    }
+    
+    .materials .article {
+        width: 50%;
+        padding: 2%;
+        flex-basis: auto;
+    }
+    
+    .service .article {
+        width: 100%;
+        margin-bottom: 15%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .about .article {
+        width: 25%;
+        padding: 1%;
+        margin-bottom: 0%;
+    }
+
+    .section {
+        width: 33%;
+        margin: 0% 4%;
+    }
+
+    .how-it-works .article {
+        width: 30px;
+        float: left;
+        margin-bottom: 3%;
+    }
+    
+    .materials .article {
+        width: 25%;
+        padding: 1%;
+        flex-basis: auto;
+        margin-bottom: 0%;
+    }
+    
+    .service .article {
+        width: 33%;
+        margin-bottom: 0%;
+    }
+}

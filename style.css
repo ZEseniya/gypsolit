@@ -46,12 +46,12 @@ header .row .consultation .number {
   margin-left: 10%;
 }
 header .row .consultation .get-consultation {
-  margin-top: 1%;
   display: inline-block;
   background-color: #ffb504;
-  border-radius: 5px;
+  border-radius: 8px;
   color: white;
   text-align: center;
+  padding: 1% 0%;
 }
 header .row .col-7 {
   margin-left: 1.5%;
@@ -97,13 +97,13 @@ header .row .form form input {
   margin-left: 10%;
   margin-bottom: 5%;
   width: 80%;
-  border-radius: 5px;
+  border-radius: 8px;
   height: 3rem;
   border: 1px solid #ddd;
 }
 header .row .form form .button {
   background-color: #ffb504;
-  border-radius: 5px;
+  border-radius: 8px;
   border: none;
   height: 50px;
   color: white;
@@ -150,9 +150,7 @@ main .price .txt {
 main .price .section {
   background-color: white;
   margin-right: 0%;
-  margin: 0% 4%;
   padding: 1%;
-  display: inline-block;
   text-align: center;
   font-family: "ProximaNova";
 }
@@ -176,10 +174,10 @@ main .price .section .section-reasons .reason img {
   margin-right: 5%;
 }
 main .price .section .section-reasons .first-section-last-reson {
-  margin-bottom: 62%;
+  margin-bottom: 158px;
 }
 main .price .section .section-reasons .second-section-last-reson {
-  margin-bottom: 27%;
+  margin-bottom: 72px;
 }
 main .price .section .section-reasons .third-section-last-reson {
   margin-bottom: 15%;
@@ -187,7 +185,7 @@ main .price .section .section-reasons .third-section-last-reson {
 main .price .section .section-button {
   background-color: #ffb504;
   color: white;
-  border-radius: 5px;
+  border-radius: 8px;
   padding: 5% 0%;
   border: none;
 }
@@ -224,6 +222,7 @@ main .reviews .carousel-item .rew .comment .col-11 {
   position: absolute;
   bottom: 3%;
   left: 3%;
+  font-size: 90%;
 }
 main .reviews a {
   background-color: #49bf15;
@@ -246,7 +245,7 @@ main .reviews .col-8 form {
 }
 main .reviews .col-8 form input {
   width: 40%;
-  border-radius: 5px;
+  border-radius: 8px;
   height: 3rem;
   border: 1px solid #ddd;
   display: inline-block;
@@ -271,7 +270,7 @@ main .reviews .col-8 form .button {
   background-color: #ffb504;
   margin-top: 3%;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   color: white;
   height: 50px;
   padding: 0% 5%;
@@ -284,30 +283,21 @@ main .reviews .img {
 }
 main .how-it-works {
   margin-top: 5%;
-}
-main .how-it-works .title {
   text-align: center;
-}
-main .how-it-works .col {
-  text-align: center;
-  margin-bottom: 3%;
 }
 main .how-it-works .row {
   padding: 3% 0% 1.5% 10%;
 }
 main .how-it-works .row .article {
   margin-left: 2%;
+  text-align: left;
 }
 main .how-it-works .row .article .title {
   text-align: left;
   margin: 3% 0%;
 }
-main .how-it-works .img {
-  position: absolute;
-  right: 0%;
-  top: 410%;
-  width: 50%;
-  height: 110%;
+main .how-it-works .row .article .txt {
+  width: 70%;
 }
 main .adv {
   padding-top: 7%;
@@ -335,27 +325,27 @@ main .adv .row .txt {
   width: 80%;
 }
 main .pr {
-  padding: 0% 10%;
+  padding-left: 10%;
 }
 main .pr .title {
   text-align: center;
-  margin: 5% 0%;
+  margin: 5% 10% 5% 0%;
 }
 main .pr .prob {
-  border: 2px solid #f5f5f5;
+  border: 4px solid #f5f5f5;
   width: 40%;
   display: inline-block;
   margin-right: 10%;
   padding-left: 5%;
 }
 main .pr .prob .title {
-  color: #313131;
+  color: #b2b2b2;
   padding-top: 5%;
   text-align: left;
 }
 main .pr .prob .row {
   margin: 5% 0%;
-  padding-top: 2% ;
+  padding: 2% 0%;
 }
 main .pr .prob .row .icon {
   margin-right: 5%;
@@ -365,17 +355,19 @@ main .pr .prob .row .txt {
   display: inline-block;
 }
 main .pr .sol {
-  border: 2px solid #358015;
+  border: 4px solid #358015;
   width: 40%;
   display: inline-block;
   padding-left: 5%;
 }
 main .pr .sol .title {
   text-align: left;
+  padding: 3% 0%;
 }
 main .pr .sol .row {
   margin: 3% 0%;
-  padding-bottom: 1%;
+  padding: 2% 0%;
+  font-size: 0.9rem;
 }
 main .pr .sol .row .icon {
   width: 7%;
@@ -388,9 +380,209 @@ main .pr .sol .row .txt {
 main .pr .sol .row img {
   width: 80%;
 }
-main .pr .img {
-  width: 20%;
+main .materials {
+  margin-top: 1%;
+  padding: 5% 0%;
+  background-image: url(images/bk.png);
+}
+main .materials .title {
+  text-align: center;
+  padding: 1% 0%;
+}
+main .materials .txt-first {
+  margin-bottom: 6%;
+}
+main .materials .txt {
+  text-align: center;
+}
+main .materials .row {
+  padding: 5% 7%;
+  text-align: center;
+}
+main .materials a {
+  color: #286b0a;
+  text-decoration: underline;
+}
+main .fb {
+  background-image: url(images/bk-img.png);
+  background-position: center right 20%;
+  padding: 10% 15%;
+}
+main .fb .txt {
+  margin-right: 20%;
+}
+main .fb .txt h2 {
+  margin-bottom: 15%;
+}
+main .fb .form {
+  background-color: white;
+}
+main .fb .form p {
+  text-align: center;
+  padding: 5%;
+}
+main .fb .form .input-name-txt {
+  position: absolute;
+  left: 36%;
+  bottom: 67.5%;
+  background-color: #fff;
+  padding: 0% 3%;
+  color: #565656;
+}
+main .fb .form .input-tel-txt {
+  position: absolute;
+  left: 27.5%;
+  bottom: 51%;
+  background-color: #fff;
+  padding: 0% 3%;
+  color: #565656;
+}
+main .fb .form input {
+  margin-left: 10%;
+  margin-bottom: 5%;
+  width: 80%;
+  border-radius: 8px;
+  height: 3rem;
+  border: 1px solid #ddd;
+}
+main .fb .form .button {
+  background-color: #ffb504;
+  border-radius: 8px;
+  border: none;
+  height: 50px;
+  color: white;
+}
+main .service {
+  background-color: #286b0a;
+  padding: 5% 10%;
+  color: white;
+}
+main .service .title {
+  text-align: center;
+  padding: 1% 0%;
+}
+main .service .txt {
+  text-align: center;
+  padding: 1% 0%;
+}
+main .service .article {
+  text-align: center;
+}
+main .service .article img {
+  width: 70%;
+  margin: 10% 0%;
+}
+main .service .article button {
+  background-color: #ffb504;
+  color: white;
+  border-radius: 8px;
+  padding: 3% 15%;
+  border: none;
+  margin-top: 5%;
+}
+main .contacts {
+  background-image: url(images/bk2.png);
+  background-position: center right 25%;
+  padding: 5% 15%;
+}
+main .contacts .title {
+  text-align: left;
+}
+main .contacts .inf {
+  margin-right: 15%;
+}
+main .contacts .inf .txt {
+  margin: 3% 0%;
+}
+main .contacts form {
+  background-color: white;
+}
+main .contacts form p {
+  text-align: center;
+  padding: 5%;
+}
+main .contacts form .input-name-txt {
+  position: absolute;
+  left: 36%;
+  bottom: 77%;
+  background-color: #fff;
+  padding: 0% 3%;
+  color: #565656;
+}
+main .contacts form .input-tel-txt {
+  position: absolute;
+  left: 29%;
+  bottom: 62.5%;
+  background-color: #fff;
+  padding: 0% 3%;
+  color: #565656;
+}
+main .contacts form .input-email-txt {
+  position: absolute;
+  left: 40%;
+  bottom: 48%;
+  background-color: #fff;
+  padding: 0% 3%;
+  color: #565656;
+}
+main .contacts form .input-message-txt {
   position: absolute;
   left: 33%;
-  top: 590%;
+  bottom: 33.5%;
+  background-color: #fff;
+  padding: 0% 3%;
+  color: #565656;
+}
+main .contacts form input {
+  margin-left: 10%;
+  margin-bottom: 10%;
+  width: 80%;
+  border-radius: 8px;
+  height: 3rem;
+  border: 1px solid #ddd;
+}
+main .contacts form .message {
+  height: 100px;
+}
+main .contacts form .button {
+  background-color: #ffb504;
+  border-radius: 8px;
+  border: none;
+  height: 50px;
+  color: white;
+}
+footer {
+  padding: 1% 15%;
+}
+footer .logo {
+  display: inline-block;
+  margin-top: 2%;
+}
+footer .logo img {
+  display: inline-block;
+  width: 16%;
+  vertical-align: top;
+}
+footer .logo .col-6 {
+  display: inline-block;
+}
+footer .logo .col-6 .logo-txt {
+  float: left;
+  width: 100%;
+  font-size: 18px;
+}
+footer .logo .col-6 .logo-txt:last-child {
+  font-size: 11px;
+}
+footer .contacts {
+  text-align: center;
+  margin-right: 15%;
+  margin-top: 0.5%;
+}
+footer .contacts .col {
+  text-align: center;
+}
+footer .site {
+  text-align: end;
+  margin-top: 0%;
 }
